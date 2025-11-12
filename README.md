@@ -40,6 +40,8 @@ Implemented and evaluated:
 
 Evaluation was done using **5-fold cross-validation** with metrics such as **Accuracy**, **Precision**, **Recall**, **F1-Score**, and **AUC**.
 
+---
+
 ## 📊 Results & Analysis  
 The models were evaluated using 5-fold cross-validation on the diabetic dataset.
 Random Forest achieved the best overall performance with accuracy = 0.8719 and AUC = 0.5854, showing strong generalization.
