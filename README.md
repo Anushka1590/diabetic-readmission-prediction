@@ -1,8 +1,9 @@
 # 🩺 Implementation of Machine Learning Algorithms for Predicting Diabetic Patient Readmission
+*A research-based implementation focusing on predicting hospital readmissions among diabetic patients using classical machine learning algorithms.*
 
 ## 📘 Overview  
 This project implements multiple machine learning algorithms to predict whether diabetic patients are likely to be readmitted within **30 days** of discharge.  
-The analysis is based on patient claims data collected from **1998–2008** in the United States.  
+The analysis is based on patient claims data collected from **1999–2008** in the United States.  
 The goal is to identify risk factors and improve hospital management by reducing avoidable readmissions.
 
 ---
@@ -49,6 +50,10 @@ Evaluation was done using **5-fold cross-validation** with metrics such as **Acc
 
 ---
 
+## 🧩 Dataset Source
+The dataset used in this project is derived from the **UCI Machine Learning Repository – Diabetes 130-US hospitals for years 1999–2008 dataset**.
+[Dataset Link](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008)
+
 ## 🚀 How to Run the Project
 
 ### Option 1: Run on Google Colab  
@@ -61,7 +66,6 @@ Evaluation was done using **5-fold cross-validation** with metrics such as **Acc
 ```bash
 git clone https://github.com/Anushka1590/diabetic-readmission-prediction.git
 cd diabetic-readmission-prediction
-pip install -r requirements.txt
 jupyter notebook Final_Model.ipynb
 ```
 
