@@ -8,6 +8,9 @@ The goal is to identify risk factors and improve hospital management by reducing
 
 ---
 
+## 🧩 Dataset Source
+The dataset used in this project is derived from the **UCI Machine Learning Repository – Diabetes 130-US hospitals for years 1999–2008 dataset**.
+[Dataset Link](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008)
 ## 🎯 Objective  
 To develop an accurate and interpretable ML model that predicts diabetic patient readmission, enabling proactive healthcare interventions and optimized resource allocation.
 
@@ -62,10 +65,6 @@ Overall, **Random Forest** emerged as the most reliable and balanced model, wher
   - imbalanced-learn (SMOTE)  
 
 ---
-
-## 🧩 Dataset Source
-The dataset used in this project is derived from the **UCI Machine Learning Repository – Diabetes 130-US hospitals for years 1999–2008 dataset**.
-[Dataset Link](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008)
 
 ## 🚀 How to Run the Project
 
