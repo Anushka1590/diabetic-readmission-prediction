@@ -1,39 +1,39 @@
-# 🩺 Implementation of Machine Learning Algorithms for Predicting Diabetic Patient Readmission
+# Implementation of Machine Learning Algorithms for Predicting Diabetic Patient Readmission
 *A research-based implementation focusing on predicting hospital readmissions among diabetic patients using classical machine learning algorithms.*
 
-## 📘 Overview  
+## Overview  
 This project implements multiple machine learning algorithms to predict whether diabetic patients are likely to be readmitted within **30 days** of discharge.  
 The analysis is based on patient claims data collected from **1999–2008** in the United States.  
 The goal is to identify risk factors and improve hospital management by reducing avoidable readmissions.
 
 ---
 
-## 🧩 Dataset Source
+## Dataset Source
 The dataset used in this project is derived from the **UCI Machine Learning Repository – Diabetes 130-US hospitals for years 1999–2008 dataset**.
 [Dataset Link](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008)
-## 🎯 Objective  
+## Objective  
 To develop an accurate and interpretable ML model that predicts diabetic patient readmission, enabling proactive healthcare interventions and optimized resource allocation.
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
-### 1️⃣ Data Preprocessing  
+### 1️. Data Preprocessing  
 - Handled missing and invalid values  
 - Removed redundant columns (`weight`, `payer_code`, etc.)  
 - Encoded categorical variables using one-hot encoding  
 - Balanced classes using **SMOTE**  
 
-### 2️⃣ Feature Engineering  
+### 2️. Feature Engineering  
 - Created new variables like **service utilization** and **numchange**  
 - Grouped diagnostic codes into categories  
 - Performed **Lasso Regression** for feature selection  
 
-### 3️⃣ Exploratory Data Analysis (EDA)  
+### 3️. Exploratory Data Analysis (EDA)  
 - Generated **heatmaps**, **scatter plots**, and **density plots**  
 - Analyzed relationships between diagnoses, medications, and readmission  
 
-### 4️⃣ Modeling  
+### 4️. Modeling  
 Implemented and evaluated:  
 - Linear Discriminant Analysis (LDA)  
 - Random Forest  
@@ -45,7 +45,7 @@ Evaluation was done using **5-fold cross-validation** with metrics such as **Acc
 
 ---
 
-## 📊 Results & Analysis  
+## 5. Results & Analysis  
 The models were evaluated using 5-fold cross-validation on the diabetic dataset.
 
 Random Forest achieved the best overall performance with accuracy = 0.8719 and AUC = 0.5854, showing strong generalization.
@@ -56,7 +56,7 @@ Overall, **Random Forest** emerged as the most reliable and balanced model, wher
 
 ---
 
-## 🧠 Technologies Used
+## Technologies Used
 - **Language:** Python 3.10+  
 - **Environment:** Google Colab  
 - **Libraries:**  
@@ -66,7 +66,7 @@ Overall, **Random Forest** emerged as the most reliable and balanced model, wher
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### Option 1: Run on Google Colab  
 1. Open [Google Colab](https://colab.research.google.com/).  
@@ -83,19 +83,19 @@ jupyter notebook Final_Model.ipynb
 
 ---
 
-## 🩹 Future Scope  
+## Future Scope  
 - Incorporate deep learning techniques for improved prediction.  
 - Expand the dataset for multi-hospital generalization.  
 - Develop a web or mobile interface for clinical use.  
 
 ---
 
-## 📜 License  
+## License  
 This project is licensed under the **MIT License** — feel free to use and modify with attribution.
 
 ---
 
-## 👩‍💻 Contributors  
+## Contributors  
 - Anushka Gupta  
 - Prakrati Jain 
 - Dev Gokha
